@@ -71,10 +71,9 @@
 				desactivateBtn(elem);
 				var url = '#';
 				if(elem.id == "btnA")
-					url = 'http://192.168.1.19/cm?cmnd=Power%20On';
+					url = 'http://192.168.1.42/cm?cmnd=Power%20On';
 				if(elem.id == "btnB")
-					url = 'http://192.168.1.21/cm?cmnd=Power%20On';
-				// url = 'http://192.168.1.31';
+					url = 'http://192.168.1.93/cm?cmnd=Power%20On';
 				
 				httpGetAsync(url,elem, function(e){
 					resetBtn(elem);
